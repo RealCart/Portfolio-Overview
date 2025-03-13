@@ -1,0 +1,23 @@
+.floating-add-button {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+  
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+  

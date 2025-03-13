@@ -1,0 +1,29 @@
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .add-asset-form {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  
+    label {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+  
+    input {
+      margin-right: 1rem;
+    }
+  
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  
