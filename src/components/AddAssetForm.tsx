@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { useAppDispatch } from '../../app/hooks';
-import { addAsset } from '../../features/portfolioSlice';
+import { useAppDispatch } from '../app/hooks';
+import { addAsset } from '../features/portfolioSlice';
 
 const AddAssetForm: React.FC = () => {
   const dispatch = useAppDispatch();
